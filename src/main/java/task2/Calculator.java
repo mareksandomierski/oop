@@ -26,4 +26,8 @@ public class Calculator {
     public void add(int i) {
         result += i;
     }
+
+    public int getresult() {
+        return result;
+    }
 }

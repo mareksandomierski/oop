@@ -17,5 +17,13 @@ public class CalculatorApp {
 
         System.out.println("result = " + calculator.result);
 
+        System.out.println("===========================");
+
+        Calculator calculator2 = new Calculator();
+        calculator2.add(8);
+        calculator2.add(10);
+
+        System.out.println("result = " + calculator2.getresult());
+
     }
 }
