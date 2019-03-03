@@ -1,6 +1,6 @@
 package task4;
 
-public class Person extends Mammal {
+public abstract class Person extends Mammal {
 
 
 }

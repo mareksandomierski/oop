@@ -20,4 +20,17 @@ public class Garage {
 
     }
 
+    public void repair(){
+        //wywołaj repair na wszystkich pojazdach
+        //dla wszystkich pojazdów
+        //napraw je
+        //for(pojazd in pojazdy)
+        //napraw pojazd => pojazd.napraw();
+
+        for (Vehicle vehicle: vehicles) {
+            vehicle.repair();
+        }
+    }
+
+
 }
